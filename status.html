@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blacksite — project status &amp; records</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="top">
+  <span class="brand">Blacksite</span>
+  <a href="index.html">Home</a>
+  <a href="roadmap.html">History &amp; roadmap</a>
+  <a href="systems.html">Game &amp; engine</a>
+  <a href="evidence.html">Evidence</a>
+  <a class="here" href="status.html">Project status</a>
+</nav>
+<main>
+  <h1>Project status</h1>
+  <p class="tag">The short version, kept current — details live on the linked pages.</p>
+
+  <h2>Status summary (2026-11-01)</h2>
+  <table>
+    <tr><th>Item</th><th>State</th></tr>
+    <tr><td>Current version</td><td>1.5.0 — built and packaged 2026-10-28</td></tr>
+    <tr><td>Release status</td><td class="bad">HELD — not published, by the owner's decision of 2026-10-28. No downloads exist.</td></tr>
+    <tr><td>Engine</td><td>Halcyon Engine 3.0 (the game's own engine; lineage: Claudio Engine 1.0 → 2.0 → Halcyon 3.0)</td></tr>
+    <tr><td>Repository</td><td>Private GitHub repository established 2026-11-01; history preserved (59 commits + seed commit); default branch main</td></tr>
+    <tr><td>Latest verification</td><td>Fresh clone: build passes · 478 checks, 0 failed · strict gate passes · CI run 41276914585 success</td></tr>
+    <tr><td>Codename</td><td>None assigned — none has ever existed for this project, and none is invented here</td></tr>
+    <tr><td>Save format</td><td>Version 11 (loaders accept 8 and 9)</td></tr>
+    <tr><td>Active development</td><td>Paused at a verified state; the project's future direction is the owner's decision</td></tr>
+    <tr><td>Not re-verified</td><td>Windows cross-build and Wine gates (kit absent in the current environment; verified at 1.5.0 build time per the changelog)</td></tr>
+  </table>
+
+  <h2>Authoritative records</h2>
+  <p>The repository's records outrank this website. The records the project is run
+  from (in the private development repository; named so their existence and role are
+  public):</p>
+  <ul>
+    <li><strong>README.md &amp; MANUAL.txt</strong> — what the game is and how to play it</li>
+    <li><strong>CHANGELOG.md</strong> — the version history, including the engine lineage</li>
+    <li><strong>RELEASES.md</strong> — the releases registry: 1.5.0 recorded as HELD with its build commit and package checksum</li>
+    <li><strong>STORY.md / ROADMAP.md</strong> — the design records (noted in the registry as partially stale against the shipped 1.5.0; the changelog is authoritative where they differ)</li>
+    <li><strong>The transfer report (2026-11-01)</strong> — the migration's evidence record</li>
+  </ul>
+
+  <footer>
+    <p>This summary updates when verified new information exists — a status change,
+    an owner decision, a new verification — and not before.</p>
+  </footer>
+</main>
+</body>
+</html>

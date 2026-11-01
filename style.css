@@ -1,0 +1,48 @@
+/* AirportSim public site — shared design system (Hollow Lantern house style) */
+body { font-family: Georgia, 'Times New Roman', serif; margin: 0; background: #10131a; color: #e8e4d8; }
+main { max-width: 46rem; margin: 0 auto; padding: 2.2rem 1.25rem 4rem; }
+h1 { font-size: 2.3rem; margin-bottom: 0.2rem; letter-spacing: 0.02em; }
+.tag { color: #c9a227; font-style: italic; margin-top: 0; }
+h2 { color: #c9a227; margin-top: 2.2rem; font-size: 1.22rem; text-transform: uppercase; letter-spacing: 0.08em; }
+h3 { font-size: 1.05rem; }
+p, li { line-height: 1.55; }
+a { color: #c9a227; }
+footer { margin-top: 3rem; color: #8b8778; font-size: 0.9rem; }
+nav.top { border-bottom: 1px solid #4c5261; padding: 0.7rem 1.25rem; display: flex; flex-wrap: wrap; gap: 0.4rem 1.3rem; max-width: 46rem; margin: 0 auto; }
+nav.top a { text-decoration: none; font-size: 0.98rem; }
+nav.top a.here { color: #e8e4d8; border-bottom: 2px solid #c9a227; }
+nav.top .brand { font-weight: bold; color: #e8e4d8; margin-right: 0.6rem; }
+.status { border: 1px solid #c9a227; padding: 0.9rem 1.1rem; border-radius: 6px; background: #171b26; }
+figure { margin: 1.4rem 0; }
+figure img { width: 100%; border: 1px solid #4c5261; border-radius: 6px; display: block; }
+figcaption { color: #bdb8a6; font-size: 0.92rem; line-height: 1.5; margin-top: 0.5rem; }
+figcaption strong { color: #e8e4d8; }
+.nums { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 1rem 0; }
+.nums div { border: 1px solid #4c5261; border-radius: 6px; background: #171b26; padding: 0.6rem 0.9rem; }
+.nums b { display: block; font-size: 1.25rem; color: #c9a227; }
+.nums span { font-size: 0.85rem; color: #bdb8a6; }
+.card { border: 1px solid #4c5261; border-left: 6px solid #4c5261; border-radius: 6px; background: #171b26; padding: 0.8rem 1.1rem; margin: 0.9rem 0; }
+.card h3 { margin: 0 0 0.25rem; }
+.card p { margin: 0.2rem 0; font-size: 0.96rem; }
+.st { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: #bdb8a6; }
+.st.ok { color: #7fc48a; } .st.mid { color: #c9a227; } .st.low { color: #8b8778; } .st.no { color: #e08a7d; }
+.gap { border-color: #a03a30; border-left-color: #a03a30; background: #1d1618; }
+.gap .st { color: #e08a7d; }
+table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.95rem; }
+th, td { border: 1px solid #4c5261; padding: 0.5rem 0.7rem; text-align: left; vertical-align: top; line-height: 1.45; }
+th { color: #c9a227; text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.8rem; }
+.ok { color: #7fc48a; } .bad { color: #e08a7d; }
+.diagram { border: 1px solid #4c5261; border-radius: 6px; background: #171b26; padding: 1rem; margin: 1.2rem 0; overflow-x: auto; }
+.diagram p.cap { color: #bdb8a6; font-size: 0.9rem; margin: 0.6rem 0 0; }
+svg text { font-family: Georgia, serif; }
+.stage { border: 1px solid #4c5261; border-left: 6px solid #4c5261; border-radius: 6px; background: #171b26; padding: 0.8rem 1.1rem; margin: 0 0 0.2rem; }
+.stage h3 { margin: 0 0 0.25rem; }
+.stage p { margin: 0.2rem 0; font-size: 0.95rem; }
+.done { border-left-color: #3f7d46; } .done .st { color: #7fc48a; }
+.now { border-color: #4a7fb5; border-left-color: #4a7fb5; background: #16202f; } .now .st { color: #9cc0e8; }
+.gate { border-left-color: #c9a227; } .gate .st { color: #c9a227; }
+.arrow { text-align: center; color: #8b8778; font-size: 1.15rem; line-height: 1.5; }
+.arrow small { display: block; font-size: 0.8rem; letter-spacing: 0.04em; }
+.legend { display: flex; flex-wrap: wrap; gap: 0.5rem 1.2rem; margin: 1.2rem 0 0.4rem; font-size: 0.92rem; }
+.legend span::before { content: ""; display: inline-block; width: 0.8rem; height: 0.8rem; border-radius: 3px; margin-right: 0.45rem; vertical-align: -0.08rem; }
+.lg-done::before { background: #3f7d46; } .lg-now::before { background: #4a7fb5; } .lg-gate::before { background: #c9a227; } .lg-next::before { background: #4c5261; }
